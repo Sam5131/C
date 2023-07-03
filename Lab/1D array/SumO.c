@@ -1,3 +1,4 @@
+//Write a program to find the sum of odd index numbers in an array.
 #include<stdio.h>
 #include<stdlib.h>
 void main()
@@ -20,3 +21,9 @@ void main()
     }
     printf("The sum of odd index elements is %d\n",sum);
 }
+// Output:
+// Enter the number of elements:
+// 5
+// Enter the elements:
+// 1 2 3 4 5
+// The sum of odd index elements is 6

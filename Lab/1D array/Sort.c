@@ -1,30 +1,33 @@
-#include<stdio.h>
-#include<stdlib.h>
-void main()
-{
-    system("cls");
-    printf("Enter the number of elements: \n");
-    int data[100],N,temp;
-    scanf("%d",&N);
-    printf("Enter the elements: \n");
-    for(int i=0;i<N;i++)
-    {
-        scanf("%d",&data[i]);
-    }
-    for(int i=0;i<N-1;i++)
-    {
-        for(int j=0;j<N-i-1;j++)
-        {
-            if(data[j]>data[j+1])
-            {
-                temp=data[j+1];
-                data[j+1]=data[j];
-                data[j]=temp;
-            }
+// Write a program to check whether an array is sorted or not.
+#include <stdio.h>
+int main() {
+    int arr[10];
+    int n = sizeof(arr)/sizeof(arr[0]);
+    int i;
+    int isSorted = 1;
+
+    // User input
+    printf("Enter 10 elements: ");
+    for (i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+
+    // Check if the array is sorted in ascending order
+    for (i = 0; i < n-1; i++) {
+        if (arr[i] > arr[i+1]) {
+            isSorted = 0;
+            break;
         }
     }
-    for(int i=0;i<N;i++)
-    {
-        printf("%d ",data[i]);
-    }
+
+    if (isSorted)
+        printf("The array is sorted.\n");
+    else
+        printf("The array is not sorted.\n");
+
+    return 0;
 }
+// Output:
+// Enter 10 elements: 1 2 3 4 5 6 7 8 9 10
+// The array is sorted.
+// Enter 10 elements: 4 5 0 -1 -4 98 5 7 70
+// The array is not sorted.

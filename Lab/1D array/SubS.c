@@ -32,3 +32,14 @@ void main()
         printf("Substring: %s not found",sub);
     }
 }
+// Output:
+// Enter the main string:
+// Hello World
+// Enter the sub string:
+// World
+// The substring World was found at position 7
+// Enter the main string:
+// Hello World
+// Enter the sub string:
+// Hold
+// Substring: Hold not found
