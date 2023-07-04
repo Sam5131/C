@@ -1,58 +1,38 @@
+/* Question 5: Write a program to print that Nth the Armstrong number. */
+
 #include <stdio.h>
 #include <math.h>
 
-// Function to calculate the power of a number
-int power(int num, int p) {
-    int result = 1;
-    while (p > 0) {
-        result *= num;
-        p--;
+int isArmstrong(int n) {
+    int temp = n, sum = 0, digits = 0;
+    while (temp != 0) {
+        temp /= 10;
+        digits++;
     }
-    return result;
-}
-
-// Function to check if a number is an Armstrong number
-int isArmstrong(int num) {
-    int temp = num;
-    int numDigits = 0;
-    int sum = 0;
-    
-    // Count the number of digits in the number
-    while (temp > 0) {
-        numDigits++;
+    temp = n;
+    while (temp != 0) {
+        int remainder = temp % 10;
+        sum += pow(remainder, digits);
         temp /= 10;
     }
-    
-    // Calculate the sum of the digits raised to the power of the number of digits
-    temp = num;
-    while (temp > 0) {
-        int digit = temp % 10;
-        sum += power(digit, numDigits);
-        temp /= 10;
-    }
-    
-    // Check if the sum is equal to the original number
-    if (sum == num) {
-        return 1;
-    }
-    else {
-        return 0;
-    }
+    return (n == sum);
 }
 
 int main() {
-    int n, count = 0, num = 0;
+    int n, count = 0;
     printf("Enter the value of N: ");
     scanf("%d", &n);
-    
-    while (count < n) {
-        num++;
-        if (isArmstrong(num)) {
+    for (int i = 1; count < n; i++) {
+        if (isArmstrong(i)) {
             count++;
+            if (count == n)
+                printf("The %dth Armstrong number is %d", n, i);
         }
     }
-    
-    printf("The %dth Armstrong number is: %d", n, num);
-    
     return 0;
 }
+// Output:
+/*
+Enter the value of N: 15
+The 15th Armstrong number is 9474
+*/
