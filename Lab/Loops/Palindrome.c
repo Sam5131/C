@@ -25,3 +25,11 @@ void main()
         printf("%d is not a palindrome number",num1);
     }
 }    
+// Output:
+// Enter the number:
+// 121
+// 121 is a palindrome number
+//
+// Enter the number:
+// 123
+// 123 is not a palindrome number

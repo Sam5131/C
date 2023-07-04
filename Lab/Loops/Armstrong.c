@@ -25,3 +25,10 @@ void main()
         printf("%d is not an armstrong number",num1);
     }
 }
+// Output:
+// Enter the number:
+// 153
+// 153 is an armstrong number
+// Enter the number:
+// 123
+// 123 is not an armstrong number

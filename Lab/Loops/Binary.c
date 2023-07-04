@@ -17,3 +17,10 @@ void main()
     }
     printf("The number in binary is: %d ",bin);
 }
+// Output:
+// Enter the number:
+// 10
+// The number in binary is: 1010
+// Enter the number:
+// 15
+// The number in binary is: 1111

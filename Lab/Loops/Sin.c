@@ -36,4 +36,9 @@ void main()
         }
     }
 }
-
+// Output:
+// Enter the number of terms:
+// 5
+// Enter the value of x:
+// 30
+// sin(30)=+30.00-435.00+10958.00-494050.00+33978000.00

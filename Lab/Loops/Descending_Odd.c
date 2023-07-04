@@ -1,3 +1,4 @@
+//Write a program to take N as input and print the odd numbers in descending order.
 #include<stdio.h>
 #include<stdlib.h>
 void main()
@@ -16,3 +17,12 @@ void main()
         printf("\n");
     }
 }
+// Output:
+// Enter the limit:
+// 10
+// Odd numbers in descending order:
+// 9
+// 7
+// 5
+// 3
+// 1

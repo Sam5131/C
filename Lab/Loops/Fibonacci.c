@@ -1,3 +1,4 @@
+//Write a program to print the Fibonacci number. Hint: (Fibonacci series is 0, 1, 1, 2, 3, 5, 8,)
 #include<stdio.h>
 #include<stdlib.h>
 void main()
@@ -18,3 +19,7 @@ void main()
         t3=t1+t2;
     }
 }
+// Output:
+// Enter the limit of Fibonacci series:
+// 10
+// The fibonacci series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,

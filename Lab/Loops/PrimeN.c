@@ -1,58 +1,32 @@
+/* Question 3: Write a program to find whether the given number is prime or not. */
+
 #include <stdio.h>
-#include <math.h>
-
-// Function to calculate the power of a number
-int power(int num, int p) {
-    int result = 1;
-    while (p > 0) {
-        result *= num;
-        p--;
-    }
-    return result;
-}
-
-// Function to check if a number is an Armstrong number
-int isArmstrong(int num) {
-    int temp = num;
-    int numDigits = 0;
-    int sum = 0;
-    
-    // Count the number of digits in the number
-    while (temp > 0) {
-        numDigits++;
-        temp /= 10;
-    }
-    
-    // Calculate the sum of the digits raised to the power of the number of digits
-    temp = num;
-    while (temp > 0) {
-        int digit = temp % 10;
-        sum += power(digit, numDigits);
-        temp /= 10;
-    }
-    
-    // Check if the sum is equal to the original number
-    if (sum == num) {
-        return 1;
-    }
-    else {
-        return 0;
-    }
-}
 
 int main() {
-    int n, count = 0, num = 0;
-    printf("Enter the value of N: ");
+    int n, i, flag = 0;
+    printf("Enter a positive integer: ");
     scanf("%d", &n);
-    
-    while (count < n) {
-        num++;
-        if (isArmstrong(num)) {
-            count++;
+
+    for (i = 2; i <= n / 2; ++i) {
+        if (n % i == 0) {
+            flag = 1;
+            break;
         }
     }
-    
-    printf("The %dth Armstrong number is: %d", n, num);
-    
+
+    if (n == 1) {
+        printf("1 is neither prime nor composite.");
+    } else {
+        if (flag == 0)
+            printf("%d is a prime number.", n);
+        else
+            printf("%d is not a prime number.", n);
+    }
+
     return 0;
 }
+// Output:
+// Enter a positive integer: 29
+// 29 is a prime number.
+// Enter a positive integer: 12
+// 12 is not a prime number.
