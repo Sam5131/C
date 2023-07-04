@@ -14,3 +14,6 @@ void main()
     printf("The area of the circle is %f",area);
     getch();
 }
+// Output:
+// Enter the radius of the circle: 5
+// The area of the circle is 78.539749

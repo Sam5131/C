@@ -17,3 +17,7 @@ void main()
     printf("The sum of the digits is %d",sum);
     getch();
 }
+// Output:
+// Enter the four digit number:
+// 1234
+// The sum of the digits is 10

@@ -18,3 +18,14 @@ void main()
     printf("The distance between the two points is %f",distance);
     getch();
 }
+// Output:
+// Enter the x1 and y1 coordinates of the first point
+//
+// 2
+// 3
+// Enter the x2 and y2 coordinates of the second point
+//
+// 4
+// 5
+// The distance between the two points is 2.828427
+//

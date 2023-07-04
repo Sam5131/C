@@ -14,3 +14,6 @@ int main()
     printf("The time in hours, minutes and seconds is: %d:%d:%d",hr,min,sec);
     return 0;
 }
+// Output:
+// Enter the time in seconds: 10000
+// The time in hours, minutes and seconds is: 2:46:40

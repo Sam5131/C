@@ -14,3 +14,11 @@ void main()
     a=a-b;
     printf("The desired result is: \n%d\n%d",a,b);
 }
+// Output:
+// Enter the value of a:
+// 5
+// Enter the value of b:
+// 10
+// The desired result is:
+// 10
+// 5

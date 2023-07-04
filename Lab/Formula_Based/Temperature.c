@@ -18,3 +18,10 @@ void main()
     printf("\nThe temperature in Fahrenheit is: %d",fahrenheit);
     getch();
 }
+// Output:
+// Enter temperature in Celsius:
+// 100
+// Enter temperautre in Fahrenheit:
+// 212
+// The temperature in Celsius is: -173
+// The temperature in Fahrenheit is: 212

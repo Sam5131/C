@@ -17,3 +17,8 @@ void main()
     printf("The distance in feet is: %.2f\n",feet);
     getch();
 }
+// Output:
+// Enter the distance in mm: 100
+// The distance in cm is: 10.00
+// The distance in inch is: 4.00
+// The distance in feet is: 0.33
