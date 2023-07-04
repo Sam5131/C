@@ -1,3 +1,4 @@
+//Write a program to program to calculate an area of a circle, a rectangle, or a triangle depending on the user’s choice
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -49,3 +50,12 @@ void main()
         printf("Invalid Input");
     }
 }
+// Output:
+// Choose from the following:
+// 1.Area of a circle
+// 2.Area of a rectangle
+// 3.Area of a triangle
+// 1
+// Enter the radius of the circle: 5
+// The area of the circle is: 78.50
+//

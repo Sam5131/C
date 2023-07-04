@@ -1,3 +1,4 @@
+//Write a program to remove all the break statements from Ex-1 (with switch-case construct) and try to execute the program with a few inputs. Observe the difference.
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -49,3 +50,24 @@ void main()
         printf("Invalid Input");
     }
 }
+// Output:
+// Choose from the following:
+// 1.Area of a circle
+// 2.Area of a rectangle
+// 3.Area of a triangle
+// 1
+// Enter the radius of the circle: 5
+// The area of the circle is: 78.50
+// Enter the length of the rectangle:
+// 5
+// Enter the breadth of the rectangle:
+// 6
+// The area of the rectangle is: 30.00
+// Enter the first side of the triangle:
+// 3
+// Enter the second side of the triangle:
+// 4
+// Enter the third side of the triangle:
+// 5
+// The area of the triangle is: 6.00
+// Invalid Input
