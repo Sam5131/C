@@ -35,3 +35,16 @@ void main()
         printf("Invalid Input");
     }
 }
+// Output:
+// Enter the marks: 9
+// Grade obtained is:A
+//
+// Enter the marks: 5
+// Grade obtained is: C
+//
+// Enter the marks: 2
+// Grade obtained is: F
+//
+// Enter the marks: 11
+// Invalid Input
+//

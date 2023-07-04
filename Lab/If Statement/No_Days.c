@@ -77,3 +77,12 @@ void main()
         printf("invalid input");
     }
 }
+// Output:
+// Enter the month: 2
+// Number of days is:59
+//
+// Enter the month: 4
+// Number of days is:120
+//
+// Enter the month: 12
+// Number of days is:365

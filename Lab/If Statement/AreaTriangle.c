@@ -25,3 +25,15 @@ void main()
         printf("The triangle is invalid");
     }
 }
+// Output:
+// Enter the first side of triangle: 3
+// Enter the second side of triangle: 4
+// Enter the third side of triangle: 5
+//
+// The area of the triangle is: 6.00
+//
+// Enter the first side of triangle: 3
+// Enter the second side of triangle: 4
+// Enter the third side of triangle: 8
+//
+// The triangle is invalid

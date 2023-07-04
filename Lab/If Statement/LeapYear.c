@@ -28,3 +28,16 @@ void main()
         printf("The year is not a leap year");
     }
 }
+// Output:
+// Enter the year: 2000
+// The year is a leap year
+//
+// Enter the year: 2001
+// The year is not a leap year
+//
+// Enter the year: 2004
+// The year is a leap year
+//
+// Enter the year: 2100
+// The year is not a leap year
+//

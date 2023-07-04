@@ -23,3 +23,12 @@ void main()
         }
     }
 }
+// Output:
+// Enter the coefficients of the equation: 1 2 1
+// The roots of the equation are:-1.000000, -1.000000
+//
+// Enter the coefficients of the equation: 1 2 3
+// The equation have imaginary roots
+//
+// Enter the coefficients of the equation: 1 4 4
+// The roots of the equation are:-2.000000, -2.000000

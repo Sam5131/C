@@ -20,3 +20,12 @@ void main()
         printf("The number is odd");
     }
 }
+// Output:
+// Enter a  number: 5
+// The number is odd
+//
+// Enter a  number: 0
+// The number is zero
+//
+// Enter a  number: 10
+// The number is even

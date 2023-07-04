@@ -22,3 +22,15 @@ void main()
         printf("%d is not a multiple of %d",num1,num2);
     }
 }
+// Output:
+// Enter a number:5
+// Enter another number:10
+// 10 is a multiple of 5
+//
+// Enter a number:10
+// Enter another number:5
+// 10 is a multiple of 5
+//
+// Enter a number:5
+// Enter another number:7
+// 5 is not a multiple of 7

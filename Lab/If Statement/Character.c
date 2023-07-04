@@ -27,3 +27,16 @@ void main()
         printf("Invalid Input");
     }
 }
+// Output:
+// Enter a character: a
+// The character is a vowel
+//
+// Enter a character: 5
+// The character is a digit
+//
+// Enter a character: #
+// Invalid Input
+//
+// Enter a character: B
+// The character is a consonant
+//
